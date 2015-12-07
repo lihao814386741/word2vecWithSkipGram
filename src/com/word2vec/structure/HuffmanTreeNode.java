@@ -14,7 +14,7 @@ public interface HuffmanTreeNode extends Comparable<HuffmanTreeNode>{
 	/*
 	 * set and get the parent node of the current node. 
 	 * */
-	public void setParent();
+	public void setParent(HuffmanTreeNode parent);
 	public HuffmanTreeNode getParent();
 	public HuffmanTreeNode merge(HuffmanTreeNode sibling);
 }
